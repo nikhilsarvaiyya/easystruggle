@@ -36,10 +36,24 @@ import {
   MatSortModule,
   MatPaginatorModule
 } from '@angular/material';
+import { PagesComponent } from './pages/pages.component';
+import { DashboardComponent } from './pages/dashboard/dashboard.component';
+import { JavascriptComponent } from './pages/javascript/javascript.component';
+import { AngularComponent } from './pages/angular/angular.component';
+import { HtmlComponent } from './pages/html/html.component';
+import { CssComponent } from './pages/css/css.component';
+import { JqueryComponent } from './pages/jquery/jquery.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PagesComponent,
+    DashboardComponent,
+    JavascriptComponent,
+    AngularComponent,
+    HtmlComponent,
+    CssComponent,
+    JqueryComponent
   ],
   imports: [
     BrowserModule,

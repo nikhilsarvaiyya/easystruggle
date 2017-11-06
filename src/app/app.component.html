@@ -1,4 +1,4 @@
-<mat-sidenav-container class="example-container">
+<mat-sidenav-container class="sidenav-container">
 
   <mat-toolbar>My App 
     <button  mat-icon-button (click)="sidenav.open()">
@@ -7,8 +7,16 @@
   </mat-toolbar>
 
   
-  <mat-sidenav #sidenav class="example-sidenav">
-    Jolly good!
-  </mat-sidenav>
+  <mat-sidenav #sidenav class="sidenav-menu">
+    <mat-nav-list>
+      <mat-list-item >
+       <a matLine href="...">asd</a>
+       <button mat-icon-button (click)="showInfo(link)">
+        <mat-icon>info</mat-icon>
+      </button>
+    </mat-list-item>
+  </mat-nav-list>
+</mat-sidenav>
 </mat-sidenav-container>
+
 
