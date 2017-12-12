@@ -26,7 +26,6 @@ import { PageRoutingModule } from './pages.routing.module';
     JavascriptComponent
   ],
   exports : [
-    MaterialModule,
     ComponentsModule,
   ]
 })

@@ -2,10 +2,12 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { LeftmenuComponent } from './leftmenu/leftmenu.component';
 import { RightcontentComponent } from './rightcontent/rightcontent.component';
-
+// Material Modules
+import { MaterialModule } from './../modules/material.module';
 @NgModule({
   imports: [
-    CommonModule
+    CommonModule,
+    MaterialModule
   ],
   declarations: [
   	LeftmenuComponent,
@@ -13,7 +15,8 @@ import { RightcontentComponent } from './rightcontent/rightcontent.component';
   ],
   exports : [
   	LeftmenuComponent,
-  	RightcontentComponent
+  	RightcontentComponent,
+    MaterialModule
   ]
 })
 export class ComponentsModule { }
