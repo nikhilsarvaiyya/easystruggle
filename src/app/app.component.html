@@ -1,22 +1,14 @@
-<mat-sidenav-container class="sidenav-container">
+<mat-toolbar class="bg-pink">My App </mat-toolbar>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-4">
+      <app-leftmenu></app-leftmenu>
+    </div>
+    <div class="col-lg-8">
+      <app-rightcontent></app-rightcontent>
+    </div>
+  </div>
+</div>
 
-  <mat-toolbar>My App 
-    <button  mat-icon-button (click)="sidenav.open()">
-      <mat-icon>menu</mat-icon>
-    </button>
-  </mat-toolbar>
-
-  
-  <mat-sidenav #sidenav class="sidenav-menu">
-    <mat-nav-list>
-      <mat-list-item >
-       <a matLine href="...">asd</a>
-       <button mat-icon-button (click)="showInfo(link)">
-        <mat-icon>info</mat-icon>
-      </button>
-    </mat-list-item>
-  </mat-nav-list>
-</mat-sidenav>
-</mat-sidenav-container>
 
 

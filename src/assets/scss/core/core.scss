@@ -1,0 +1,61 @@
+
+//-----------------------------Scroller  -----------------------------
+
+::-webkit-scrollbar {
+	width: .5em;
+}
+
+::-webkit-scrollbar-track {
+	wmat-form-field--no-underlineebkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+::-webkit-scrollbar-thumb {
+		background-color: darkgrey;
+		outline: 1px solid slategrey;
+}
+
+//-----------------------------Table-----------------------------
+
+.table-borderless td, .table-borderless th {
+    border: none !important;
+}
+.table .table{
+	background:white !important
+}
+
+//
+
+.hidden{
+	display : none !important;
+	visibility : hidden !important
+}
+
+
+//--------------------------------pagination-controls -------------------
+
+.ngx-pagination{ text-align:center !important; margin:20px 0 !important; padding:0 20px !important;
+	li{ margin:0 5px;
+		a{
+			background: #e5e5e5;
+    		border-radius: 4px;
+		}
+		span{}
+	}
+
+	.current {
+		border-radius: 4px; padding:6px 12px;
+	}
+}
+
+//--------------------------------------------------------------
+
+.cursor-pointer {
+	cursor:pointer
+}
+
+//-------------------------------------------------------------
+
+mat-card{
+	margin:0 0 20px 0;
+	padding:20px
+}

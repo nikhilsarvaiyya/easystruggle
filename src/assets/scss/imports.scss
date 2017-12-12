@@ -1,0 +1,28 @@
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+
+//---------------------Material style------------------------------
+@import "./material/material.scss";
+
+
+//---------------------Bootstrap style------------------------------
+//@import "node_modules/bootstrap/scss/bootstrap";
+
+
+//----------------------Core Style--------------------------------
+@import "./core/box-model.scss";
+@import "./core/color.scss";
+@import "./core/font-size.scss";
+@import "./core/grid.scss";
+@import "./core/media-screen.scss";
+@import "./core/core.scss";
+
+//--------------------Add Your custom style------------------------------
+@import "./styles.scss";
+
+
+//--Angular and bootstrap material Commented themes
+//---------------------@import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
+//---------------------@import "~@angular/material/prebuilt-themes/pink-bluegrey.css";
+//---------------------@import "~@angular/material/prebuilt-themes/purple-green.css";
+//---------------------@import "node_modules/bootstrap/scss/bootstrap";
